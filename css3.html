@@ -1,0 +1,65 @@
+<style>
+    .stretch {
+        color: white;
+        background-color: green;
+        border: none;
+        padding: 10px;
+        opacity: 0.8;
+        transition-duration: 0.3s;
+        cursor: pointer;
+        margin: 8px;
+    }
+    .stretch:hover {
+        padding: 20px;
+        opacity: 1;
+    }
+    .shadow {
+        color: white;
+        background-color: green;
+        border: none;
+        padding: 10px;
+        opacity: 1;
+        transition-duration: 0.2s;
+        cursor: pointer;
+        margin: 8px;
+        box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.2);
+    }
+    .shadow:active {
+        margin-top: 14px;
+        margin-left: 12px;
+        box-shadow: 2px 6px 4px rgba(0, 0, 0, 0);
+    }
+    .sequence {
+        color: white;
+        background-color: green;
+        border: none;
+        padding: 10px;
+        transition-duration: 0.3s;
+        cursor: pointer;
+        margin: 8px;
+    }
+    .sequence:hover {
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+</style>
+
+<div>
+    <button class="stretch">
+        Stretch
+    </button>
+    <button class="shadow">
+        Shadow
+    </button>
+    <button class="sequence">
+        One
+    </button>
+    <button class="sequence">
+        Two
+    </button>
+    <button class="sequence">
+        Three
+    </button>
+</div>
