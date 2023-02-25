@@ -1,0 +1,28 @@
+body {
+  margin: 0px;
+  text-align: center;
+}
+.i1 {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: right;
+  transition: 500ms;
+}
+.i1:hover {
+  object-position: left;
+}
+.i1:active {
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.9;
+}
+.i2 {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  object-position: right;
+}
+.in {
+  font-size: 24px;
+}
