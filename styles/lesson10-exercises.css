@@ -1,0 +1,77 @@
+
+.d {
+  width: 200px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  display: inline-block;
+  border: none;
+  border-radius: 2px;
+  transition: 300ms;
+  overflow: hidden;
+  margin: 4px;
+}
+.d:hover {
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+}
+.du {
+  width: 200px;
+  height: 200px;
+}
+.iu {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+.dl {
+  width: 200px;
+  margin-top: 8px
+}
+.d1 {
+  margin-left: 8px;
+  font-family: Arial;
+  font-weight: bold;
+}
+.d2 {
+  margin-left: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.d2l {
+  display: inline-block;
+  width: 40px;
+}
+.d2r {
+  display: inline-block;
+  width: 140px;
+  font-family: Arial;
+  color: grey;
+}
+.il {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+  vertical-align: middle;
+}
+.d3 {
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+.b {
+  background-color: rgb(49, 88, 217);
+  color: white;
+  font-family: Arial;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.b:hover {
+  opacity: 0.9;
+}
+.b:active {
+  opacity: 0.7;
+}
